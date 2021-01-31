@@ -40,5 +40,6 @@ int main(){
 
     auto addition = floatant + nbre;//exemple
     std::cout << typeid(addition).name() << std::endl; //d = double :)
+    /*On peut egalement utiliser l'operateur sizeof pour connaitre la taille en octet des vrbs ^^ */ 
     system("pause");
 }
