@@ -39,6 +39,9 @@ int main(){
 
     system("pause");
     
+    /*
+    mots clé pour les boucles: break , goto , continue
+    */
     
     /*syntax des boucles :
     
