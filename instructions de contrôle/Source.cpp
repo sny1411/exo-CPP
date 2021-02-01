@@ -1,10 +1,11 @@
 #include <iostream>
+#include <Windows.h>
 
 int main(){
-    int i {60};
+    int c {60};
     int j {40};
 
-    if (i == j){ // i n'est pas egal à j donc le code dans les crochets en dessous ne seront pas executé
+    if (c == j){ // i n'est pas egal à j donc le code dans les crochets en dessous ne seront pas executé
         std::cout << "i est egal a j" << std::endl;
     }
     else{ //sinon
@@ -28,5 +29,60 @@ int main(){
         std::cout << "ta pas ecouter toi :(" << std::endl;
         break;
     }
+
+    int i {}; //initialisation de i à 0
+    auto p = i++; //i en post-incrementation
+    std::cout << "i=" << i << std::endl;
+    auto d = ++i; //i en pré-incrementation
     
+    std::cout << "p=" << p << " d=" << d << std::endl;
+
+    system("pause");
+    
+    
+    /*syntax des boucles :
+    
+    for (size_t i = 0; i < count; i++)
+    {
+        code
+    }
+
+    do
+    {
+        code
+    } while (condition);
+
+        while (condition)
+    {
+        code
+    }
+    
+    /* 
+    /*
+    syntax des operateur de condition :
+
+    if (condition)
+    {
+        code
+    }
+    else if (condition)
+    {
+        code
+    }
+    else 
+    {
+        code
+    }
+
+    switch (expression)
+    {
+    case  constant-expression :
+         code 
+        break;
+    
+    default:
+        break;
+    }
+
+    */
 }
