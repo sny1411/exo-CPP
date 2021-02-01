@@ -24,6 +24,8 @@ les types de vrbs:
         bool
 */
 
+int vrb_local {20}; //creation d'une variable local, on peut y acceder dans tout le fichier
+
 int main(){
     std::string msg;
     std::cin >> msg;
