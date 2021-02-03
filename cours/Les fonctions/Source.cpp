@@ -2,7 +2,7 @@
 #include <Windows.h>
 
 //exemple de fonction basique
-float fexple (float, int,int);
+float fexple (float, int,int = 0); //le 3eme argument a une valeur par defaut (0)
 void echange(int &,int &);
 void fct();
 
@@ -31,7 +31,7 @@ system("pause");
 
 }
 
-float fexple (float x,int b,int c){
+float fexple (float x,int b,int c){ 
     float val;
     val = x*x + b*x+c;
     return val;
