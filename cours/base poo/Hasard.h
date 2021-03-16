@@ -1,5 +1,6 @@
 #include <vector>
-
+#ifndef HASARD_H
+#define HASARD_H
 class Hasard
 {
 private:
@@ -11,3 +12,4 @@ public:
     void affiche();
     ~Hasard();
 };
+#endif
