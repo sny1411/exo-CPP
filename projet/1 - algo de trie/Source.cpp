@@ -37,7 +37,7 @@ void Tri_Selection(std::vector<int> &tab,int tailleTab){
     int indiceMin = 0;
     for (int cpt = 0; cpt < tailleTab-1; cpt++)
     {
-        indiceMin = Trouver_min(tab,cpt,tab.size()-1);
+        indiceMin = Trouver_min(tab,cpt,tailleTab-1);
         if (indiceMin != cpt) 
         {
             Permuter_dans_tableau(tab,indiceMin,cpt);
