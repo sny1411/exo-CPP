@@ -87,5 +87,24 @@ int main(){
         break;
     }
 
+    Les boucles : 
+    
+   do
+   {
+        code 
+   } while ( condition );
+
+   while ( condition )
+   {
+        code 
+   }
+
+
+    for (int i = 0; i < 100; i++)
+    {
+         code 
+    }
     */
+   
+   
 }
